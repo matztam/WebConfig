@@ -153,7 +153,7 @@ public:
   //values for the parameter
   String values[MAXVALUES];
 private:
-  char _buf[1000];
+  char _buf[1200];
   uint8_t _count;
   String _apName;
   uint8_t _buttons = BTN_CONFIG;
